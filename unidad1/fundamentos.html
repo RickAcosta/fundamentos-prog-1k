@@ -6,18 +6,18 @@
     <title>Fundamentos HTML</title>
 </head>
 <body>
-    <header>Bienvenido a la pagina12</header>
+    <header>Bienvenido a la pagina</header>
     <h1>Fundamentos HTML</h1>
     <p>Aqui podras apender lo basico de html2</p>
     <h2>Listas</h2>
     <h3>LIstas desordenadas</h3>
-   <ul>
-       <li>C++</li>
-       <li>C#</li>
-       <li>Java</li>
-   </ul>
-   <h3>Listas ordenadas</h3>
-   <ol>
+    <ul>
+        <li>C++</li>
+        <li>C#</li>
+        <li>Java</li>
+    </ul>
+    <h3>Listas ordenadas</h3>
+    <ol>
         <li>Windows</li>
         <li>OSX</li>
         <li>Linux</li>
@@ -50,7 +50,8 @@
     <form>
         <div>
             <label for="nombre">Nombre(s)</label>
-            <input type="text" id="nombre"/>
+            <input type="text" id="nombre"
+            maxLength="10" size="50"/>
         </div>
         <div>
             <label for="apellidos">Apellido(s)</label>
@@ -63,6 +64,14 @@
         <div>
             <label for="comentarios">Comentarios:</label>
             <textarea id="comentarios"></textarea>
+        </div>
+        <div>
+            <label for="clave">Contraseña: </label>
+            <input type="password" id="clave">
+        </div>
+        <div>
+            <label for="color">Elige un color: </label>
+            <input type="color" id="color"/>
         </div>
         <div>
             <button id="enviar">Enviar</button>
