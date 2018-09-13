@@ -4,17 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fundamentos HTML</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" 
+    rel="stylesheet">
 </head>
 <body>
     <header>Bienvenido a la pagina</header>
-    <h1>Fundamentos HTML</h1>
+    <h1 id="niveles">Fundamentos HTML</h1>
     <p>Aqui podras apender lo basico de html2</p>
-    <h2>Listas</h2>
+    <h2  class="sin-borde">Listas</h2>
     <h3>LIstas desordenadas</h3>
     <ul>
-        <li>C++</li>
-        <li>C#</li>
-        <li>Java</li>
+        <li class="sin-borde">C++</li>
+        <li class="sin-borde">C#</li>
+        <li class="sin-borde">Java</li>
     </ul>
     <h3>Listas ordenadas</h3>
     <ol>
@@ -71,7 +74,7 @@
         </div>
         <div>
             <label for="color">Elige un color: </label>
-            <input type="color" id="color"/>
+            <input type="color" id="color">
         </div>
         <div>
             <button id="enviar">Enviar</button>

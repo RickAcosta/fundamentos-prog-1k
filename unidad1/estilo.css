@@ -1,0 +1,23 @@
+p,li,h1 { /*selector elementos*/
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+#niveles {/*selector de identidad (id)*/
+    color: gray;
+    background-color: aqua;
+    
+}
+.sin-borde {/*selector de clase (class)*/
+    color: orange;
+    background-color: azure;
+    border: 0px;
+}
+#niveles:hover {/*slector de clase cuando se pasa el cursor por encima*/
+    background-color: blueviolet;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+label[for] {
+    color: royalblue;
+}
