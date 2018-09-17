@@ -1,0 +1,37 @@
+body {
+    background-color: grey;
+}
+.formulario {   
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    height: 250px;
+    width: 400px;
+    padding: 0%;
+}
+.bienvenido {
+    background: rgb(6, 129, 102);
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+input {
+    background: rgb(114, 228, 165);
+    width: 200px;
+    margin-top: 2%;
+    border: 2px solid grey;
+}
+textarea {
+    background: rgb(114, 228, 165);
+    width: 200px;
+    height: 50px;
+    margin-top: 2%;
+    order: 3px solid grey;
+}
+button {
+    border-radius: 1px;
+    background: rgb(6, 129, 102);
+    width: 80px;
+    height: 25px; 
+    margin-top: 2%;
+    order: 2px solid grey;
+}
